@@ -37,7 +37,10 @@ body{
 }
 
 .nav a:hover {
-    background-color: #CC5500;
+    background-color: #F5F5DC;
+    color: black;
+    opacity: 50%;
+    border-radius: 10px;
 }
 
 #succeed-info {
