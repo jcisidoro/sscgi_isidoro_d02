@@ -39,3 +39,74 @@ body{
 .nav a:hover {
     background-color: #CC5500;
 }
+
+#succeed-info {
+    padding: 2rem 10% 3rem;
+}
+
+#succeed-info h2 {
+    margin-bottom: 1rem;
+}
+
+#succeed-info h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #808000;
+}
+
+#succeed-info .card {
+    vertical-align: top;
+    text-align: justify;
+    display: inline-block;
+    height: auto;
+    min-height: 220px;
+    width: 30%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    background-color:  #F5F5DC;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+#pre-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #F5F5DC;
+    color: black;
+}
+
+#pre-footer div {
+    flex: 1 1 200px;
+    padding: 20px;
+}
+
+#pre-footer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#pre-footer p {
+    margin: 5px 0px;
+    font-size: 14px;
+}
+
+#pre-footer p:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+footer {
+    padding: 0.7rem;
+    text-align: center;
+}
+
+footer span {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
