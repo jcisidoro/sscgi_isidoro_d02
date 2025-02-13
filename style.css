@@ -1,0 +1,41 @@
+/* CSS RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GOOGLE FONTS */
+body{
+    font-family: "Roboto", serif;
+}
+
+.navbar{
+    margin: 0;
+    background-color: #808000;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.nav-logo img{
+    width: 150px;
+    height: auto;
+}
+
+.nav {
+    margin: 0 15px;
+}
+
+.nav a {
+    color: #F5F5DC;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.nav a:hover {
+    background-color: #CC5500;
+}
