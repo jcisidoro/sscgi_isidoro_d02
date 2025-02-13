@@ -33,7 +33,7 @@ body{
     color: #F5F5DC;
     text-decoration: none;
     padding: 10px 15px;
-    transition: background-color 0.3s;
+    transition: 0.3s;
 }
 
 .nav a:hover {
